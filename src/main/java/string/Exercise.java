@@ -16,10 +16,28 @@ public class Exercise {
     //Na koniec niech wypisze zawartość tablicy na ekran
     public static void main(String[] args) {
         String days = "Monday ;Tuesday; Wednesday;Thursday;Friday; Saturday;Sunday";
-        String [] tablica = days.split(";");
-        for (String s : tablica){
+
+        System.out.println(days);
+        days = days.replace("S" ,"$");
+        days = days.replace("s" ,"$");
+        String[] tablica = days.split(";");
+
+        for (String s : tablica) {
+            System.out.println(s.trim());
+            if (s.startsWith("T")){
             System.out.println(s);
+            }
+            if(s.endsWith("sday")){
+                System.out.println(s);
+            }
+            s.replace("S", "$");
         }
+        System.out.println(Arrays.toString(tablica));
+        tablica[2] = tablica[2].toUpperCase();
+        tablica[3] = tablica[3].toUpperCase();
+        tablica[1] = tablica[1].toLowerCase();
+        tablica[4] = tablica[4].toLowerCase();
+        System.out.println(Arrays.toString(tablica));
     }
 }
 

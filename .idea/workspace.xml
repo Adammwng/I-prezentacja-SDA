@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc960f6-87d5-4bdc-94a2-ef29d208adc3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kolekcje/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kolekcje/ListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kolekcje/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kolekcje/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dateAndTime/TimeAndDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dateAndTime/TimeAndDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kolekcje/Lista.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kolekcje/Lista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kolekcje/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kolekcje/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/operacjeMatematyczne/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/operacjeMatematyczne/Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/string/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tablice/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tablice/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tablice/TableExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tablice/TableExercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tablice/TableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tablice/TableMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,31 +40,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Exercise (1)">
-    <configuration name="Exercise (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Exercise" />
-      <module name="Iprezentacja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise">
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacjeMatematyczne.Exercise" />
+      <option name="MAIN_CLASS_NAME" value="kolekcje.Exercise" />
       <module name="Iprezentacja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operacjeMatematyczne.*" />
+          <option name="PATTERN" value="kolekcje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tablice.MainTest" />
+    <configuration name="ListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolekcje.ListIterator" />
       <module name="Iprezentacja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tablice.*" />
+          <option name="PATTERN" value="kolekcje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableExercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tablice.TableExercise" />
+    <configuration name="Lista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kolekcje.Lista" />
       <module name="Iprezentacja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tablice.*" />
+          <option name="PATTERN" value="kolekcje.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeAndDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dateAndTime.TimeAndDate" />
+    <configuration name="Usage2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="klasy.shop.Usage2" />
       <module name="Iprezentacja" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dateAndTime.*" />
+          <option name="PATTERN" value="klasy.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usage3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="klasy.payment.Usage3" />
+      <module name="Iprezentacja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="klasy.payment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise (1)" />
-        <item itemvalue="Application.TimeAndDate" />
         <item itemvalue="Application.Exercise" />
-        <item itemvalue="Application.TableExercise" />
-        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.ListIterator" />
+        <item itemvalue="Application.Lista" />
+        <item itemvalue="Application.Usage3" />
+        <item itemvalue="Application.Usage2" />
       </list>
     </recent_temporary>
   </component>
@@ -142,26 +152,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="28" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1580988513465" />
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1581065440103">
+    <state x="613" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1581588940782">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1581065440103" />
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1581085686015">
+    <state x="613" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1581588940782" />
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1581800977830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581085686015" />
-    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1581085686015">
+    <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581800977830" />
+    <state width="1323" height="184" key="GridCell.Tab.0.center" timestamp="1581800977830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581085686015" />
-    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1581085686015">
+    <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581800977830" />
+    <state width="1323" height="184" key="GridCell.Tab.0.left" timestamp="1581800977829">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581085686015" />
-    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1581085686015">
+    <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581800977829" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right" timestamp="1581800977830">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581085686015" />
+    <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581800977830" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1581085686016">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -182,10 +192,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581020850910" />
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1581150912613">
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1581797066410">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581150912613" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581797066410" />
     <state x="346" y="59" key="search.everywhere.popup" timestamp="1581000286051">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -198,14 +208,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/tablice/MainTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/string/Exercise.java</url>
-          <line>16</line>
-          <properties class="string.Exercise" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
