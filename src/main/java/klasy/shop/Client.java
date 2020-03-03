@@ -1,13 +1,36 @@
 package klasy.shop;
 
+import klasy.payment.Account;
+
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Client {
+    private int id;
     private LocalDate birthDate;
     private String name;
     private String surname;
+    private Account account;
+    private Basket basket;
 
-    public Client(LocalDate birthDate, String name, String surname) {
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
+
+    public Basket getBasket() {
+        return basket;
+    }
+
+    public void setBasket(Basket basket) {
+        this.basket = basket;
+    }
+
+    public Client(int id, LocalDate birthDate, String name, String surname) {
+        this.id = id;
         this.birthDate = birthDate;
         this.name = name;
         this.surname = surname;
@@ -17,11 +40,14 @@ public class Client {
     @Override
     public String toString() {
         return "Client{" +
-                "birthDate=" + birthDate +
+                "id=" + id +
+                ", birthDate=" + birthDate +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 '}';
     }
+
+
 
     public boolean isAdult (){
         if (birthDate.isBefore(LocalDate.now().minusYears(18))){
@@ -34,7 +60,7 @@ public class Client {
 }
 class Usage2{
     public static void main(String[] args) {
-        Client Adam = new Client(LocalDate.of(2000, 12, 12), "Adam","D");
+        Client Adam = new Client(12, LocalDate.of(2000, 12, 12), "Adam","D");
         System.out.println(Adam);
         System.out.println(Adam.isAdult());
 

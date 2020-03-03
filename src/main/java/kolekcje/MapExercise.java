@@ -40,29 +40,25 @@ public class MapExercise {
         System.out.println(numbers.containsValue("dziesiec"));
         System.out.println(numbers.containsValue("three"));
 
-        //Zainicjalizuj listę następującymi wartościami: [ 5, 3, 1, 5, 1, 1, 3, 3, 2, 7, 5, 7, 4].
+        //Zainicjalizuj listę następującymi wartościami: [ -5, 3, 1, -5, 1, -1, 3, 3, 2, 7, 5, 7, 4].
         //Zlicz i wypisz ile razy wystąpiła dana liczba całkowita (użyj mapy).
-        List<Integer> lista = new ArrayList<>(List.of(5, 3, 1, 5, 1, 1, 3, 3, 2, 7, 5, 7, 4));
+        List<Integer> lista = new ArrayList<>(List.of(-5, 3, 1, 5,1,1,1, 1, 1, -3, 3, 2, 7, 5, 7, 4));
         Map<Integer, Integer> num = new HashMap<>();
         int value = 1;
         for (int i : lista) {
-
-if(num.containsKey(i)){
-    num.put(i, value++);
-
-}else
-            num.putIfAbsent(i, value);
-
-
+            if (num.containsKey(i)) {
+                int value2 = num.get(i);
+                num.put(i, value2+1);
+            } else
+                num.putIfAbsent(i, value);
         }
-        System.out.println(num.size());
-        System.out.println(num.get(4));
-        int liczba;
+
         for (Integer k : num.keySet()) {
             System.out.print(k);
         }
+        System.out.println("");
         for (Map.Entry<Integer, Integer> e : num.entrySet()) {
-            System.out.println(e.getKey() + ":" + e.getValue());
+            System.out.println(e.getKey() + " liczba wystąpień: " + e.getValue());
         }
     }
 }
